@@ -12,7 +12,7 @@ contract ARABPUNKS is ERC721, Ownable {
     string private URI;
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("ARABPUNKS", "ABP") {}
+    constructor() ERC721("Name", "Symbol") {}
 
 
     mapping(uint => string) _tokenURIs;
